@@ -79,7 +79,9 @@ function Notifications() {
               className="card p-2 mt-2"
               onClick={() => navigate(notification.onClickPath)}
             >
-              <div className="card-text">{notification.message}</div>
+              <div className="card-text-white bg-success">
+                {notification.message}
+              </div>
             </div>
           ))}
         </Tabs.TabPane>
@@ -94,7 +96,9 @@ function Notifications() {
               className="card p-2 mt-2"
               onClick={() => navigate(notification.onClickPath)}
             >
-              <div className="card-text">{notification.message}</div>
+              <div className="card-text-white bg-success">
+                {notification.message}
+              </div>
             </div>
           ))}
         </Tabs.TabPane>
